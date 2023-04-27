@@ -1,0 +1,4 @@
+selenium-side-runner C:\Users\Zaynab\Desktop\py.test\kompletering\2023-04-19\Arlov.side
+
+
+selenium-side-runner C:\Users\Zaynab\Desktop\2023-04-19\arlov_test2023\Arlov.side
