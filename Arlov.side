@@ -233,6 +233,71 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "602024e9-5a58-461d-b2b1-e5e5fa2f8fdb",
+    "name": "assert text av adress",
+    "commands": [{
+      "id": "21388e68-a31b-4713-8da1-5f0c343cef87",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/-/arlovs-bibliotek",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ad1fa9c-c9cf-4a67-9ba5-505d77dc5ddc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c445dca9-2701-4ee1-891a-2a59ae29d156",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,179.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03a18419-e6ee-443f-9dab-7be139e56212",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(3)",
+      "targets": [
+        ["css=ul:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]", "xpath:idRelative"],
+        ["xpath=//ul[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e72232c-4d13-48c7-9b10-a815d8007a46",
+      "comment": "",
+      "command": "click",
+      "target": "css=ul:nth-child(3)",
+      "targets": [
+        ["css=ul:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]", "xpath:idRelative"],
+        ["xpath=//ul[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "653773f7-1e2a-4229-8471-6e1de0920995",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.street:nth-child(1)",
+      "targets": [
+        ["css=.street:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='_com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_e13FfCWDEB9a_460780']/div/article/div[3]/div[2]/div/ul[2]/li", "xpath:idRelative"],
+        ["xpath=//ul[2]/li", "xpath:position"]
+      ],
+      "value": "Gata\\nLommavägen 2"
+    }, {
+      "id": "59e1bd65-8f9d-422a-b17a-5c800e9e1f70",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "bfd66204-9793-49d2-b960-d21a1e7e78c5",
