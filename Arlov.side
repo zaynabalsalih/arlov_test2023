@@ -552,24 +552,24 @@
       "value": ""
     }]
   }, {
-    "id": "c1a9b56e-da19-450a-a749-90306b8c79d5",
-    "name": "test lägg till lista",
+    "id": "83c3ab7a-0b99-4652-ad73-ccad69bc5c0c",
+    "name": "lägg till lista",
     "commands": [{
-      "id": "6373c606-c654-47fb-a9e4-2b339135d9e4",
+      "id": "ac5120fd-a9c5-40b3-8896-b6d9aac01d0c",
       "comment": "",
       "command": "open",
       "target": "https://bibliotek.burlov.se/-/arlovs-bibliotek",
       "targets": [],
       "value": ""
     }, {
-      "id": "182205c8-1c07-4d9e-8dd4-dcc4b6c8d9e7",
+      "id": "88be4ece-9307-4ce4-b6da-2afa44c86c18",
       "comment": "",
       "command": "setWindowSize",
       "target": "1536x824",
       "targets": [],
       "value": ""
     }, {
-      "id": "b4c02ae6-16fa-44d8-8fdb-d4ae54413e76",
+      "id": "b0ecbd86-539c-40b6-99a6-5dc9ccdc625d",
       "comment": "",
       "command": "mouseOver",
       "target": "css=#navigation li:nth-child(4) span",
@@ -581,7 +581,7 @@
       ],
       "value": ""
     }, {
-      "id": "ef07b125-d664-4194-b5d3-f68f4e5a041f",
+      "id": "98519cc9-d077-4a76-bbc6-3709017a960d",
       "comment": "",
       "command": "click",
       "target": "css=#navigation li:nth-child(4) span",
@@ -593,7 +593,7 @@
       ],
       "value": ""
     }, {
-      "id": "8f213a37-be4f-4dd2-9920-dde100049127",
+      "id": "3e506ed9-b03f-4d7f-b318-823862daa585",
       "comment": "",
       "command": "mouseOut",
       "target": "css=#navigation li:nth-child(4) span",
@@ -605,45 +605,38 @@
       ],
       "value": ""
     }, {
-      "id": "6c39db8c-becf-483a-a55c-988e6b84a170",
+      "id": "45b311ab-bd70-470e-a715-d2455c749dd1",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,646.4000244140625)",
+      "target": "window.scrollTo(0,1263.199951171875)",
       "targets": [],
       "value": ""
     }, {
-      "id": "df1c50ff-f0cc-4778-b1d0-cd8f1f82204c",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,1327.199951171875)",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "fd88258a-5493-4c9d-a4d0-827cd833fb68",
+      "id": "ed1a6b47-09f4-41a1-adf2-9f6d56ad7305",
       "comment": "",
       "command": "click",
-      "target": "css=#id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____2f9 > .arena-record-left img",
+      "target": "css=#id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____62 > .arena-record-left img",
       "targets": [
-        ["css=#id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____2f9 > .arena-record-left img", "css:finder"],
+        ["css=#id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____62 > .arena-record-left img", "css:finder"],
         ["xpath=//img[@alt='Allt om Roblox']", "xpath:img"],
-        ["xpath=//div[@id='id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____2f9']/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[@id='id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____62']/div[3]/div/div/a/img", "xpath:idRelative"],
         ["xpath=//div[8]/div/div/div[3]/div/div/a/img", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "d0fd9ff8-54cb-424c-b2e6-077feacf0636",
+      "id": "c3b8dff4-442b-4f02-b8fd-b215580a48da",
       "comment": "",
       "command": "click",
-      "target": "css=#id__crDetailWicket__WAR__arenaportlet____194 > span",
+      "target": "css=#id__crDetailWicket__WAR__arenaportlet____1d > span",
       "targets": [
-        ["css=#id__crDetailWicket__WAR__arenaportlet____194 > span", "css:finder"],
-        ["xpath=//a[@id='id__crDetailWicket__WAR__arenaportlet____194']/span", "xpath:idRelative"],
+        ["css=#id__crDetailWicket__WAR__arenaportlet____1d > span", "css:finder"],
+        ["xpath=//a[@id='id__crDetailWicket__WAR__arenaportlet____1d']/span", "xpath:idRelative"],
         ["xpath=//div[5]/div/div[2]/div/a/span", "xpath:position"],
         ["xpath=//span[contains(.,'Lägg på minneslista')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "143f33d0-d0a2-4947-b690-850e1244a0d3",
+      "id": "ebeb46d4-f6ec-4a31-9213-490d4e70a18d",
       "comment": "",
       "command": "click",
       "target": "linkText=Minneslista",
@@ -658,82 +651,124 @@
       ],
       "value": ""
     }, {
-      "id": "4cad75ab-cadc-49e5-a73d-76226ac283a0",
+      "id": "819b0743-dcfb-4a55-ad11-3a5bf63976c7",
       "comment": "",
       "command": "runScript",
-      "target": "window.scrollTo(0,90.4000015258789)",
+      "target": "window.scrollTo(0,101.5999984741211)",
       "targets": [],
       "value": ""
     }, {
-      "id": "11fd5705-011f-4c7a-890e-e68a39dd4cad",
+      "id": "2fd2beef-d1ff-4d06-a591-cd8df9926605",
       "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,1008.7999877929688)",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "15e4737a-5064-45cd-85d8-45f49af843af",
+    "name": "assert tid och datum",
+    "commands": [{
+      "id": "541d3daa-5ecc-41c6-a64e-3e2206bf492e",
+      "comment": "",
+      "command": "open",
+      "target": "https://bibliotek.burlov.se/-/arlovs-bibliotek",
       "targets": [],
       "value": ""
     }, {
-      "id": "9195cd38-cc35-4173-933b-201f41bdfd89",
+      "id": "89ef438f-e3dc-417a-8729-412184f1b950",
       "comment": "",
-      "command": "click",
-      "target": "id=id__mediaList__WAR__arenaportlet____57",
-      "targets": [
-        ["id=id__mediaList__WAR__arenaportlet____57", "id"],
-        ["name=mediaListPanel:dataContainer:dataView:4:containerItem:panelCheckbox:linkCheckbox", "name"],
-        ["css=#id__mediaList__WAR__arenaportlet____57", "css:finder"],
-        ["xpath=//input[@id='id__mediaList__WAR__arenaportlet____57']", "xpath:attributes"],
-        ["xpath=//div[@id='id__mediaList__WAR__arenaportlet____4a']/div[4]/span/input", "xpath:idRelative"],
-        ["xpath=//div[4]/span/input", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "abe8d65e-baa8-4c59-a216-45daeb0ad290",
-      "comment": "",
-      "command": "click",
-      "target": "css=.arena-delete > span",
-      "targets": [
-        ["css=.arena-delete > span", "css:finder"],
-        ["xpath=//div[@id='portlet_mediaList_WAR_arenaportlet']/div/div/div/div[3]/div[2]/div/a[6]/span", "xpath:idRelative"],
-        ["xpath=//a[6]/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Ta bort')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
-      "id": "3f3da23a-0fef-4360-83d1-02c9c91aba4f",
-      "comment": "",
-      "command": "runScript",
-      "target": "window.scrollTo(0,709.5999755859375)",
+      "command": "setWindowSize",
+      "target": "1520x808",
       "targets": [],
       "value": ""
     }, {
-      "id": "5bd59c70-0cc5-406c-a939-54014d913041",
+      "id": "98d739dd-278a-4aaa-897a-159899d805a7",
       "comment": "",
       "command": "mouseOver",
-      "target": "linkText=Sök",
+      "target": "css=#navigation li:nth-child(3) span",
       "targets": [
-        ["linkText=Sök", "linkText"],
-        ["css=#navigation .js-search-link", "css:finder"],
-        ["xpath=//nav[@id='navigation']/ul/li[8]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://bibliotek.burlov.se/s%C3%B6k')]", "xpath:href"],
-        ["xpath=//li[8]/a", "xpath:position"],
-        ["xpath=//a[contains(.,' Sök')]", "xpath:innerText"]
+        ["css=#navigation li:nth-child(3) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Använd biblioteket')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "a6ae1379-12d0-4de8-9b54-f6a9e5911136",
+      "id": "dabfefeb-fcc0-4f41-932f-8b603afdf247",
       "comment": "",
       "command": "mouseOut",
-      "target": "linkText=Sök",
+      "target": "css=#navigation li:nth-child(3) span",
       "targets": [
-        ["linkText=Sök", "linkText"],
-        ["css=#navigation .js-search-link", "css:finder"],
-        ["xpath=//nav[@id='navigation']/ul/li[8]/a", "xpath:idRelative"],
-        ["xpath=//a[contains(@href, 'https://bibliotek.burlov.se/s%C3%B6k')]", "xpath:href"],
-        ["xpath=//li[8]/a", "xpath:position"],
-        ["xpath=//a[contains(.,' Sök')]", "xpath:innerText"]
+        ["css=#navigation li:nth-child(3) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Använd biblioteket')]", "xpath:innerText"]
       ],
       "value": ""
     }, {
-      "id": "404d7b76-d21a-4330-83c7-2a21c538dba6",
+      "id": "fafc575a-1a6e-4ff4-8167-5761c9ca5f32",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navigation li:nth-child(1) span",
+      "targets": [
+        ["css=#navigation li:nth-child(1) span", "css:finder"],
+        ["xpath=//nav[@id='navigation']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//nav/ul/li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Startsida')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ba010e2-94a8-4c31-81d9-a4980be71747",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1857.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "333b77cc-dbb7-4f12-bd15-5c05ad3ef06c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1429.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c7bb242-cb89-4888-8f5f-4588d27051c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-12:nth-child(3) .card-title",
+      "targets": [
+        ["css=.col-sm-12:nth-child(3) .card-title", "css:finder"],
+        ["xpath=//div[@id='arena__com_axiell_arena_liferay_modules_apps_calendar_event_list_web_portlet_CalendarEventListPortlet_INSTANCE_2B5u5rfQwL5P_']/ng-component/ng-component/div/div/div/app-event-search-result/div/div[3]/app-event-summary/div/a/div/h3", "xpath:idRelative"],
+        ["xpath=//div[3]/app-event-summary/div/a/div/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Bokfika på Arlövs bibliotek')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d91f187-e5a2-458d-8bd5-17210139cfa1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-5:nth-child(3)",
+      "targets": [
+        ["css=.col-sm-5:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='arena__com_axiell_arena_liferay_modules_apps_calendar_event_list_web_portlet_CalendarEventListPortlet_INSTANCE_J3lmO2Rvqc59_']/ng-component/ng-component/div/div/div[3]", "xpath:idRelative"],
+        ["xpath=//ng-component/div/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bab8fdcb-72aa-4adc-8f93-dda20fe56fa2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.arena-event-dateonly > span",
+      "targets": [
+        ["css=.arena-event-dateonly > span", "css:finder"],
+        ["xpath=//div[@id='arena__com_axiell_arena_liferay_modules_apps_calendar_event_list_web_portlet_CalendarEventListPortlet_INSTANCE_J3lmO2Rvqc59_']/ng-component/ng-component/div/div/div[3]/app-event-date-interval-detail/div/div/span", "xpath:idRelative"],
+        ["xpath=//app-event-date-interval-detail/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Onsdag 10 maj')]", "xpath:innerText"]
+      ],
+      "value": "Onsdag 10 maj"
+    }, {
+      "id": "da3be1d4-d0ee-4dfa-a147-10cd3937e343",
       "comment": "",
       "command": "close",
       "target": "",
@@ -747,7 +782,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["6bef3410-a32d-4288-a166-a07dcadce7ba", "0a725c8e-fba2-4568-aaeb-80457037e446", "602024e9-5a58-461d-b2b1-e5e5fa2f8fdb"]
+    "tests": ["6bef3410-a32d-4288-a166-a07dcadce7ba", "0a725c8e-fba2-4568-aaeb-80457037e446", "602024e9-5a58-461d-b2b1-e5e5fa2f8fdb", "d5d2dccc-c607-44ad-8f72-f8b4e219ed3a", "56b685f3-ee63-492b-8851-503cd2aaa8d4", "83c3ab7a-0b99-4652-ad73-ccad69bc5c0c", "15e4737a-5064-45cd-85d8-45f49af843af"]
   }],
   "urls": ["https://bibliotek.burlov.se/-/arlovs-bibliotek"],
   "plugins": []
