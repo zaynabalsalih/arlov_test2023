@@ -615,7 +615,7 @@
       "id": "ed1a6b47-09f4-41a1-adf2-9f6d56ad7305",
       "comment": "",
       "command": "click",
-      "target": "css=#id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____62 > .arena-record-left img",
+      "target": "xpath=//div[@id='id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____62']/div[3]/div/div/a/img",
       "targets": [
         ["css=#id__listResult__WAR__arenaportlet__INSTANCE__P42BitwRNnDz____62 > .arena-record-left img", "css:finder"],
         ["xpath=//img[@alt='Allt om Roblox']", "xpath:img"],
